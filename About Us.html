@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+               <a href="Theia.html"><img src="./Assets/THEIA.png" alt="Theia Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Theia.html">HOME</a></li>
+                       <li><a href="Shop.html">SHOP</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <!--About Us Content-->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h3>"Jewelry has the power to be this one little thing that can make you feel unique"</h3>
+                    <br><br>
+                    <p>Being jewellers is an amazing privilege for us.
+                        We play a role in many significant milestones in peoples lives.
+                    <br><br>
+                        All of our jewellery is designed and make in our workshop in Sri Lanka.
+                        Never taking the easy route.drawing the jewellers in the workshop crazy 
+                        with the amount of components and numerous moving parts in each piece.
+                        However it is these intricate details that gives the jewellery 
+                        it's unique style and why our customers come back to us time and time again.</p>
+                </div>
+                <div class="about-col">
+                    <img src="./Assets/13.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-col">
+                    <img src="./Assets/14.jpg" style="height: 450px; width: 450px;">
+                </div>
+                <div class="about-col">
+                    <br>
+                    <h3>From the begining, our mission has been fine jewelry for every day, for our damn selves.</h3>
+                    <br>
+                    <p>We believe in jewelry as an expression of self: that it can mean whatever you want; 
+                        that you can wear it when you want, buy it when you want, gift it, celebrate with it, 
+                        reward yourself with it and keep it forever.</p>
+                    <br>
+                    <h3>Why handmade?</h3>
+                    <p>When shopping hand-made, the piece you purchase is filled with the energy of hard work, 
+                    hours of inspiration and a part of someone’s soul. Connection is everything and we are so grateful 
+                    to be able to share the energy of the human spirit, and the sparkle of nature, with you</p>
+                </div>
+            </div>
+        </section>
+        
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="row">
+            <div class="col">
+                <img src="./Assets/cc.png">
+            </div>
+            <div class="col">
+                <h3>THEIA</h3>
+                <p>Handmade jewellery in Sri Lanka</p>
+                <br>
+                <p><a href="Theia.html">HOME</a></p>
+                <p><a href="Shop.html">SHOP</a></p>
+                <p><a href="Contact Us.html">CONTACT US</a></p>
+                <p><a href="About Us.html">ABOUT US</a></p>
+                <br>
+                <p>COPYRIGHT ©️ 2021 THEIA</p>
+            </div>
+            <div class="col">
+                <P>Facebook : THEIA</P>
+                <P>Instagram : __theia._</P>
+                <P>Whatsapp : 0712345678</P>
+                <P>Tiktok : __theia</P>
+                <P>Email : theiajewell@gmail.com</P>
+                <br>
+                <p>Reg No : GAM/IT/2020/F/0047</p>
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>

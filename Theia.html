@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+         <title>Theia</title>
+         <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+               <a href="Theia.html"><img src="./Assets/THEIA.png" alt="Theia Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Theia.html">HOME</a></li>
+                       <li><a href="Shop.html">SHOP</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <div class="text-box"><h1>Goddess of Jewellery</h1>
+                <br><br>
+                <p style="font-size: 40px;">'Making jewellery is like  making <br> your own magic.'</p>
+                <a href="Shop.html" class="hero-btn">Shop Now</a>
+            </div>
+                
+        </section>
+
+    <!--Category-->
+
+        <section class="category">
+            <h1>CATEGORY</h1>
+            
+            <div class="row">
+                <div class="category-col">
+                    <a href="Earrings.html"><img src="./Assets/20.jpg" alt="Earrings"></a>
+                    <h3>Earrings</h3>
+                    <p>Handmade Earrings</p>
+                </div>
+                <div class="category-col">
+                    <a href="Scrunchies.html"><img src="./Assets/25.jpg" alt="Scrunchies"></a>
+                    <h3>Scrunchies</h3>
+                    <p>Handmade Scrunchies</p>
+                </div>
+                <div class="category-col">
+                    <a href="Bracelets.html"><img src="./Assets/23.jpg" alt="Bracelets"></a>
+                    <h3>Bracelets</h3>
+                    <p>Handmade Bracelets</p>
+                </div>
+            </div>
+
+        </section>
+
+    <!--Best Seller Earrings-->
+
+    <section class="bestseller">
+
+        <h1>Best Seller Earrings</h1>
+
+        <div class="row">
+            <div class="bestseller-col">
+                <a href="Product Details 1.html"><img src="./Assets/E_5.jpeg" alt="Best Seller Earring 1"></a>
+                <h3>TE0005</h3>
+            </div>
+            <div class="bestseller-col">
+                <a href="Product Details 3.html"><img src="./Assets/E_7.jpeg" alt="Best Seller Earring 1"></a>
+                <h3>TE0007</h3>
+            </div>
+            <div class="bestseller-col">
+                <a href="Product Details 2.html"><img src="./Assets/E_6.jpeg" alt="Best Seller Earring 1"></a>
+                <h3>TE0006</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Feedbacks-->
+
+    <section class="feedbacks">
+
+        <h1>FEEDBACKS</h1>
+        <p>Our valuble customer's feedbacks..</p>
+
+        <div class="row">
+            <div class="feedbacks-col">
+                <img src="./Assets/Person1.jpg" alt="Customer 1">
+                <div>
+                    <p>Thank you so much for these beautiful earrings.They look really nice.I love them. ❤️</p>
+                    <h3>Nimasha</h3>
+                    <i<>⭐⭐⭐⭐</i>
+                </div>
+            </div>
+            <div class="feedbacks-col">
+                <img src="./Assets/Person2.jpg" alt="Customer 1">
+                <div>
+                    <p>Highly Recommend. Thank you so much for sending this lovely & beautiful earrings theia. 
+                        Love the pair of earrings😍. 
+                        <br>High quality & friendly customer service . 
+                        I would like to recommend this to anyone who needs to buy earrings pleasee join with them.
+                        All the best for your business.</p>
+                    <h3>Sachithma</h3>
+                    <i<>⭐⭐⭐⭐⭐</i>
+                </div>
+            </div>
+            <div class="feedbacks-col">
+                <img src="./Assets/Person3.jpg" alt="Customer 1">
+                <div>
+                    <p>Thank you so much.. Really pretty earrings..🤗 hope to purchase more from theia.</p>
+                    <h3>Dewmini</h3>
+                    <i<>⭐⭐⭐⭐</i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="row">
+            <div class="col">
+                <img src="./Assets/cc.png">
+            </div>
+            <div class="col">
+                <h3>THEIA</h3>
+                <p>Handmade jewellery in Sri Lanka</p>
+                <br>
+                <p><a href="Theia.html">HOME</a></p>
+                <p><a href="Shop.html">SHOP</a></p>
+                <p><a href="Contact Us.html">CONTACT US</a></p>
+                <p><a href="About Us.html">ABOUT US</a></p>
+                <br>
+                <p>COPYRIGHT ©️ 2021 THEIA</p>
+            </div>
+            <div class="col">
+                <P>Facebook : THEIA</P>
+                <P>Instagram : __theia._</P>
+                <P>Whatsapp : 0712345678</P>
+                <P>Tiktok : __theia</P>
+                <P>Email : theiajewell@gmail.com</P>
+                <br>
+                <p>Reg No : GAM/IT/2020/F/0047</p>
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>
