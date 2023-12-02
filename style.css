@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width:100%;
-    background-image: url(3.jpg);
+    background-image: url(Assets/3.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -360,7 +360,7 @@ h3{
     height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(214, 218, 231, 0.7),rgba(217, 221, 235, 0.7)),
-        url(18.jpg);
+        url(Assets/18.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -403,7 +403,7 @@ h3{
     height: 100VH;
     width: 100%;
     background-image: linear-gradient(rgba(214, 218, 231, 0.7),rgba(217, 221, 235, 0.7)),
-        url(10.jpeg);
+        url(Assets/10.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
